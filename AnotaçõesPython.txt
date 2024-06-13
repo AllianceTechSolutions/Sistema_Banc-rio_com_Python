@@ -1,0 +1,124 @@
++= recebe 
+operadores de comparação
+operadores Logicos
+///////////////////////////////////////////////////////////////////////////////////////////
+Operadores de Comparação
+Os operadores de comparação são usados para comparar dois valores e retornam um valor booleano (True ou False).
+
+Operador	Descrição	Exemplo	Resultado
+==	Igual a	5 == 5	True
+!=	Diferente de	5 != 3	True
+>	Maior que	5 > 3	True
+<	Menor que	3 < 5	True
+>=	Maior ou igual a	5 >= 5	True
+<=	Menor ou igual a	3 <= 5	True
+
+EX:
+# Igual a
+print(5 == 5)  # True
+print(5 == 3)  # False
+
+# Diferente de
+print(5 != 3)  # True
+print(5 != 5)  # False
+
+# Maior que
+print(5 > 3)   # True
+print(3 > 5)   # False
+
+# Menor que
+print(3 < 5)   # True
+print(5 < 3)   # False
+
+# Maior ou igual a
+print(5 >= 5)  # True
+print(3 >= 5)  # False
+
+# Menor ou igual a
+print(3 <= 5)  # True
+print(5 <= 3)  # False
+
+////////////////////////////////////////////////////////////////////////////////////////////
+Operadores Lógicos
+Os operadores lógicos são usados para combinar expressões booleanas e também retornam um valor booleano.
+
+Operador 	Descrição	Exemplo	Resultado
+and              E (conjunção)	True and False	False
+or	Ou (disjunção)	True or False	True
+not	Não (negação)	not True	False
+
+EX:
+# E (and)
+print(True and True)    # True
+print(True and False)   # False
+print(False and True)   # False
+print(False and False)  # False
+
+# Ou (or)
+print(True or True)     # True
+print(True or False)    # True
+print(False or True)    # True
+print(False or False)   # False
+
+# Não (not)
+print(not True)         # False
+print(not False)        # True
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+Operadores de Identidade
+Os operadores de identidade são usados para comparar a localização de objetos na memória, verificando se dois objetos são o mesmo (ou seja, têm a mesma identidade).
+
+Operador	Descrição	Exemplo	Resultado
+is	Retorna True se os objetos comparados são o mesmo objeto	a is b	True ou False
+is not	Retorna True se os objetos comparados não são o mesmo objeto	a is not b	True ou False
+
+EX:
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+# 'is' verifica se os objetos são o mesmo
+print(a is b)  # True (b é o mesmo objeto que a)
+print(a is c)  # False (c é um objeto diferente, apesar de ter o mesmo conteúdo)
+
+# 'is not' verifica se os objetos não são o mesmo
+print(a is not b)  # False
+print(a is not c)  # True
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+Operadores de Associação
+Os operadores de associação são usados para verificar se uma sequência contém um valor específico.
+
+Operador	Descrição	Exemplo	Resultado
+in	Retorna True se o valor está presente na sequência	x in y	True ou False
+not in	Retorna True se o valor não está presente na sequência	x not in y	True ou False
+
+EX:
+# Lista de exemplo
+frutas = ["maçã", "banana", "laranja"]
+
+# 'in' verifica se o valor está na sequência
+print("maçã" in frutas)      # True
+print("uva" in frutas)       # False
+
+# 'not in' verifica se o valor não está na sequência
+print("maçã" not in frutas)  # False
+print("uva" not in frutas)   # True
+
+Conclusão
+Os operadores de identidade (is e is not) e de associação (in e not in) são ferramentas poderosas em Python que permitem verificar a identidade dos objetos e a associação de elementos em sequências. Eles são frequentemente usados para comparações e verificações em estruturas de controle e são essenciais para a construção de algoritmos eficientes e claros.
+
+//////////////////////////////////////////////
+
+Dominando Strings e Fatiamento.
+
+Explicações Adicionais
+.upper(): Converte todos os caracteres da string para maiúsculas.
+.lower(): Converte todos os caracteres da string para minúsculas.
+.title(): Converte a primeira letra de cada palavra para maiúscula e o resto das letras para minúsculas.
+.strip(): Remove os espaços em branco do início e do fim da string.
+.rstrip(): Remove os espaços em branco do final da string.
+.lstrip(): Remove os espaços em branco do início da string.
+.center(width, fillchar): Centraliza a string em um campo de largura width preenchido com o caractere fillchar (por padrão, espaço).
+.join(iterable): Junta os elementos de um iterável (como uma lista ou string) usando a string fornecida como separador.
+

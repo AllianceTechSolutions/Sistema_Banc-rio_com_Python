@@ -1,0 +1,9 @@
+produt1 = 20
+produt2 = 10
+print(produt1 + produt2)
+print(produt1 - produt2)
+print(produt1 / produt2)
+print(produt1 // produt2)
+print(produt1 * produt2)
+print(produt1 % produt2)
+print(produt1 ** produt2)
