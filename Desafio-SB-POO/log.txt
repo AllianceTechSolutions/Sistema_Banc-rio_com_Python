@@ -1,0 +1,14 @@
+[2024-06-25 08:38:08] Função 'adicionar_conta' executada com args=(<PessoaFisica: ('Jose Borges', '123456789')>, <ContaCorrente: ('0001', '1', 'Jose Borges')>), kwargs={}. retorno=
+=== Conta adicionada ao cliente com sucesso! ===
+[2024-06-25 08:38:22] Função 'depositar' executada com args=(<ContaCorrente: ('0001', '1', 'Jose Borges')>, 1500.0), kwargs={}. retorno=
+=== Depósito realizado com sucesso! ===
+[2024-06-25 08:38:22] Função 'realizar_transacao' executada com args=(<PessoaFisica: ('Jose Borges', '123456789')>, <ContaCorrente: ('0001', '1', 'Jose Borges')>, <__main__.Deposito object at 0x000002106A85C5C0>), kwargs={}. retorno=
+=== Operação realizada com sucesso! ===
+[2024-06-25 08:38:36] Função 'depositar' executada com args=(<ContaCorrente: ('0001', '1', 'Jose Borges')>, 1500.0), kwargs={}. retorno=
+=== Depósito realizado com sucesso! ===
+[2024-06-25 08:38:36] Função 'realizar_transacao' executada com args=(<PessoaFisica: ('Jose Borges', '123456789')>, <ContaCorrente: ('0001', '1', 'Jose Borges')>, <__main__.Deposito object at 0x000002106A85C500>), kwargs={}. retorno=
+=== Operação realizada com sucesso! ===
+[2024-06-25 08:38:47] Função 'sacar' executada com args=(<ContaCorrente: ('0001', '1', 'Jose Borges')>, 500.0), kwargs={}. retorno=
+=== Saque realizado com sucesso! ===
+[2024-06-25 08:38:47] Função 'realizar_transacao' executada com args=(<PessoaFisica: ('Jose Borges', '123456789')>, <ContaCorrente: ('0001', '1', 'Jose Borges')>, <__main__.Saque object at 0x000002106A85C680>), kwargs={}. retorno=
+=== Operação realizada com sucesso! ===
